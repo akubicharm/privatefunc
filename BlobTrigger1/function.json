@@ -1,0 +1,18 @@
+{
+  "bindings": [
+    {
+      "name": "inBlob",
+      "type": "blobTrigger",
+      "direction": "in",
+      "path": "test/{name}",
+      "connection": "ymtbasekeomizo_STORAGE"
+    },
+    {
+      "type": "blob",
+      "direction": "out",
+      "name": "outputBlob",
+      "path": "testout/{rand-guid}",
+      "connection": "ymtbasekeomizo_STORAGE"
+    }
+  ]
+}
