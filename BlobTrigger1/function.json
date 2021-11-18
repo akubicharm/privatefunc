@@ -10,7 +10,7 @@
     {
       "type": "blob",
       "direction": "out",
-      "name": "outputBlob",
+      "name": "outBlob",
       "path": "testout/{rand-guid}",
       "connection": "ymtbasekeomizo_STORAGE"
     }
